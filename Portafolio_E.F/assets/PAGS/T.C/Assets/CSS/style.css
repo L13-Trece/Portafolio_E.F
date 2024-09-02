@@ -1,0 +1,43 @@
+div{ 
+padding-top: 70px;padding-left:40%;padding-right:40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.ROJO{ 
+    background-color: red; color: black;
+}
+.BLANCO{
+    background-color: white; color: black;
+}
+.VERDE{
+    background-color: green; color: black;
+}
+.GRIS{
+    background-color: gray; color: black;
+}
+.CAFÉ{
+    background-color: brown; color: black;
+}
+.AZUL{
+    background-color: blue; color: black;
+}
+.VIOLETA{
+    background-color: violet; color: black;
+}
+.ROSADO{
+    background-color: pink; color: black;
+}
+.AMARILLO{
+    background-color: yellow; color: black;
+}
+.TURQUESA{
+    background-color: turquoise; color: black;
+}
+.NARANJO{
+    background-color: orange; color: black;
+}
+.PURPURA{
+    background-color: purple; color: black;
+}
+.NEGRO{
+    background-color: black; color: white;
+}

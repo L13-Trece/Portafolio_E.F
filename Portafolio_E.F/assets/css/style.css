@@ -1,0 +1,296 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.img-container{
+    margin: 0;
+    padding:0%; 
+    position: relative;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.overlay-text{
+position: absolute;
+top:50%;
+left:30%;
+transform: translate(-50%,-50%);
+text-shadow:  10px;
+
+}
+
+#titulo{
+      /*qwitcher-grypen-bold*/
+        font-family: "Qwitcher Grypen", cursive;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 60px;
+        text-align: center;
+        padding-left: 600px;
+        color:rgb(229, 229, 6);
+        
+      }
+.titulo{
+    font-family: "Sarabun", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color:rgb(9, 243, 5);
+    text-align: left;
+    padding-left: 300px;
+}
+
+.subtitulo{
+        font-family: "Sarabun", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        color: rgb(7, 7, 7);
+        text-align: left;
+        margin: 0%;
+        padding-left: 500px;
+      }   
+
+#fondo{
+    margin: 0;
+    padding:0%;
+    background-color: rgb(89, 23, 151);
+    width:100%;
+    object-fit: cover;
+    color: black;
+}   
+#nav-btn{
+  margin: 0%;
+  padding-top:30px;
+  padding-left:200px;
+  padding-bottom: 50px;
+  display:grid;
+  grid-auto-flow:column;
+  justify-items: center;
+  align-items: center;
+ 
+}
+
+.nav-link-bg-info{
+  color: black;
+}
+
+.list-group{
+    margin: 0%;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  
+    
+}
+#h4{
+  margin:0%;
+  padding:0%;
+  font-family: "Qwitcher Grypen", cursive;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 50px;
+        text-align:left;
+        color:aqua;
+}
+#resp{
+  margin: 0%;
+  padding: 0%;
+  font-family: "Qwitcher Grypen", cursive;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 40px;
+        text-align: left;
+        color:white;
+}
+.fw-bold{
+  font-family: "Sarabun", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color:aqua;
+        text-align: left;
+        margin: 0%;
+        padding:0%;
+}
+.resp{
+  font-family: "Sarabun", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        color:white;
+        text-align: left;
+        margin: 0%;
+        padding:0%;
+}
+
+
+.card-body{
+  margin:0%;
+  padding:0%;
+  background-color:black;
+  text-align: center;
+}
+#card-footer{
+  background-color: black;
+padding-left: 90px;
+padding-bottom: 10px;
+}
+
+#card-title{
+  color:aqua;
+}
+.card-group{
+  margin: 0%;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  width:750px;
+  border-radius: 10px;
+  
+}
+#h33{
+  color:aqua;
+  margin: 0%;
+  padding-top:90px;
+  padding-bottom: 20px;
+  padding-left: 150px;
+  text-align: center;
+  justify-items: center;
+  font-family: "Sarabun", sans-serif;
+          font-weight: 300;
+          font-style: normal;
+}
+#h3{
+color:aqua;
+margin: 0%;
+padding-top:30px;
+padding-left: 70px;
+text-align: center;
+font-family: "Sarabun", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    
+}
+.texto1{
+  margin:0%;
+  padding-bottom: 70px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+#h2{
+  color: aqua;
+  margin: 0%;
+padding-top:90px;
+padding-left: 50px;
+justify-content: center;
+text-align: center;
+font-family: "Sarabun", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+#carouselExampleDark,#carouselExampleDark-2{
+  margin:0%;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;;
+  width:700px;
+  align-items: center;
+  justify-content: center;
+}
+.texto2{
+  margin:0%;
+  padding:0%;
+  color: white;
+  text-align: center;
+}
+.carrusel1{
+  margin:0%;
+  padding-top: 50px;
+  padding-bottom:20px;
+  align-items: center;
+  justify-content: center;  
+}
+.carrusel2{
+  margin:0%;
+  padding-top: 50px;
+  padding-bottom:20px;
+  align-items: center;
+  justify-content: center;  
+}
+#h4{
+  margin:0%;
+  padding-top: 20px;
+  text-align: center;
+}
+#h5{
+  color:aqua;
+}
+.card-text{
+  color: white;
+  font-family: "Sarabun", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+    height:100px;
+    
+}
+#carouselMultiItemExample{
+  margin: 0%;
+  padding-top:50px;
+  padding-left: 70px;
+  box-sizing:border-box;
+  display:grid;
+  grid-template-columns: max-content;
+ width:100%;
+ max-width:1400px;
+
+}
+
+.card{
+margin: 0%;
+padding: 0%;
+max-width:100%;
+}
+#control-btn{
+  margin: 0%;
+  padding-left: 170px;
+  align-items: center;
+  justify-content: center;
+}
+
+#th3{
+  font-family: "Qwitcher Grypen", cursive;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 60px;
+        text-align: left;
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+#form{
+margin:0%;
+padding-top:50px;
+padding-bottom: 50px;
+padding-left: 70px;
+padding-right: 70px;
+background-color: rgb(89, 23, 151);
+color: aqua;
+font-family: "Sarabun", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+}
+#form-label,#inputGroupPrepend{
+  color: aqua;
+}
+.footer{
+margin:0%;
+padding-top: 100px;
+padding-left:50px;
+padding-bottom: 50px;
+text-align: center;
+background-color: rgb(89, 23, 151);
+color: aqua;
+}
+

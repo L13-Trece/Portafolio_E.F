@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Form.Hora Medica</title>
+</head>
+<body>
+    <div>
+        <h2>FORMULARIO</h2>
+    </div>
+    <div>
+        <br><form action="redireccion.html " method="post">
+        <div><label for="nombre">NOMBRE</label></div>
+        <div><input type="text" name="nombre" id="nombre" required></label></div>
+        
+        <div><br><label for="dirección">DIRECCIÓN</label></div>
+        <div><input type="text" name="dirección" id="dirección" required></label></div>
+        
+        <div><br><label for="lista">ESPECIALIDAD MÉDICA</label></div>
+        <div>
+            <input type="text" name="lista" list="especialidades" required></label>
+            <datalist id="especialidades">
+            <option label="ESPECIALIDAD MÉDICA"></option>
+            <option value="MEDICINA INTERNA">MEDICINA INTERNA</option>
+            <option value="MEDICINA GENERAL">MEDICINA GENERAL</option>
+            <option value="TRAUMATOLOGÍA">TRAUMATOLOGÍA</option>
+            <option value="NUTRICIONISTA">NUTRICIONISTA</option></datalist>
+            </div>
+        </datalist>
+        </div>
+
+        <div><br><label for="fecha">FECHA</label></div>
+        <div><input type="date" name="date" id="date" required></label></div>
+
+        <div><br><label for="hora">HORA</label></div>
+        <div><input type="time" name="time" id="time" required></label></div>
+
+        <div><br><label for="correo">CORREO</label></div>
+        <div><input type="email" name="correo" required></div>
+
+        <div><br><button>CONFIRMAR</button></div>
+
+    </form>
+    </div>
+</body>
